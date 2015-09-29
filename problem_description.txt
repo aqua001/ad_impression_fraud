@@ -1,0 +1,37 @@
+Fraud
+Attached is a file with one day of impression logs for selected IP addresses. The fields
+are, in order:
+
+Timestamp
+IP address
+Detected browser type
+User agent string
+Host (URL)
+Whether the impression was in view (1.0 = yes, 0.0 = no)
+Number of plugins installed
+Browser window position and size (x, y, width, height)
+Network latency
+
+Your task is to identify hosts which are receiving a substantial amount of fraudulent
+traffic. As part of this, you may also wish to identify IP addresses home to machines that
+are part of botnets, but this is not required. The definition of "substantial" is up to you --
+this may be a ranked list of all hosts, or a list of hosts reaching a certain threshold, or you
+may choose not to quantify the amount of fraud and simply classify hosts as likely to be
+experiencing high fraud or not. To get you started, here is a list of hosts which are known
+to receive substantial amounts of fraudulent traffic:
+
+featureball.com
+uvido.com
+sprungliving.com
+sweetboxgames.com
+mammabay.co.uk
+workingfathertv.com
+worsthorrorgame.com
+hourlyparent.com
+ulterior-movies.com
+myhomesdesign.com
+indoorlife.tv
+bumclub.info
+psychoworld.tv
+hunp.us
+rlinevideos.com
